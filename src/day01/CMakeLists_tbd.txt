@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.24)
+set(PNAME adv2201)
+project(${PNAME} VERSION 1.0.0 LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+
+add_subdirectory(../common ../../build/day01/common)
+add_executable(${PNAME}
+        ${PNAME}.cpp ${PNAME}.h
+        )
+
+include_directories(../common)
+target_link_libraries(${PNAME} PUBLIC adv_common)

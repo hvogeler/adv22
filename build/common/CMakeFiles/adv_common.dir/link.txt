@@ -1,0 +1,2 @@
+/Users/hvo/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libadv_common.a CMakeFiles/adv_common.dir/Util.cpp.o
+/Users/hvo/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libadv_common.a
